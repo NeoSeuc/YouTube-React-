@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.logo span {
+    background: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.search-bar .search-button {
+    margin-left: 10px;
+}
+
+.logo:hover  span {
+    background: white;
+    color: red;
+    transition: 0.3s all;
+}
